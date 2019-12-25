@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.vb" Inherits="DiagramLinearDataSource.Global_asax" Language="vb" %>
