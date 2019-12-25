@@ -1,13 +1,5 @@
-<!-- default file list -->
-*Files to look at*:
-
-* [TypedListDataBinding.aspx](./CS/DiagramLinearDataSource/TypedListDataBinding.aspx) (VB: [TypedListDataBinding.aspx](./VB/DiagramLinearDataSource/TypedListDataBinding.aspx))
-* [DepartmentTypedListDataProvider.cs](./CS/DiagramLinearDataSource/DepartmentTypedListDataProvider.cs) (VB: [DepartmentTypedListDataProvider.vb](./VB/DiagramLinearDataSource/DepartmentTypedListDataProvider.vb))
-* [DataTableDataBinding.aspx](./CS/DiagramLinearDataSource/DataTableDataBinding.aspx) (VB: [DataTableDataBinding.aspx](./VB/DiagramLinearDataSource/DataTableDataBinding.aspx))
-* [DepartmentDataTableDataProvider.cs](./CS/DiagramLinearDataSource/DepartmentDataTableDataProvider.cs) (VB: [DepartmentDataTableDataProvider.vb](./VB/DiagramLinearDataSource/DepartmentDataTableDataProvider.vb))
-<!-- default file list end -->
-
 # Diagram for Web Forms - Tree from Linear Data Structure - How to bind the control to in-memory data sources
+
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/230118732/)**
 <!-- run online end -->
@@ -23,3 +15,12 @@ You can bind other node settings to the data source. Assign field values to the 
 
 ***See also:***  
 [Diagram for Web Forms - Node and Edge data sources - How to bind the control to in-memory data sources](https://github.com/DevExpress-Examples/diagram-for-web-forms-node-and-edge-data-sources-how-to-bind-the-control-to-in-memory-data-sources)
+
+<!-- default file list -->
+*Files to look at*:
+
+* [TypedListDataBinding.aspx](./CS/DiagramLinearDataSource/TypedListDataBinding.aspx) (VB: [TypedListDataBinding.aspx](./VB/DiagramLinearDataSource/TypedListDataBinding.aspx))
+* [DepartmentTypedListDataProvider.cs](./CS/DiagramLinearDataSource/DepartmentTypedListDataProvider.cs) (VB: [DepartmentTypedListDataProvider.vb](./VB/DiagramLinearDataSource/DepartmentTypedListDataProvider.vb))
+* [DataTableDataBinding.aspx](./CS/DiagramLinearDataSource/DataTableDataBinding.aspx) (VB: [DataTableDataBinding.aspx](./VB/DiagramLinearDataSource/DataTableDataBinding.aspx))
+* [DepartmentDataTableDataProvider.cs](./CS/DiagramLinearDataSource/DepartmentDataTableDataProvider.cs) (VB: [DepartmentDataTableDataProvider.vb](./VB/DiagramLinearDataSource/DepartmentDataTableDataProvider.vb))
+<!-- default file list end -->
