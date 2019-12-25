@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [TypedListDataBinding.aspx](./CS/DiagramLinearDataSource/TypedListDataBinding.aspx) (VB: [TypedListDataBinding.aspx](./VB/DiagramLinearDataSource/TypedListDataBinding.aspx))
-* [DepartmentTypedListDataProvider.cs](./CS/DiagramLinearDataSource/NodesTypedListDataProvider.cs) (VB: [DepartmentTypedListDataProvider.vb](./VB/DiagramLinearDataSource/NodesTypedListDataProvider.vb))
+* [DepartmentTypedListDataProvider.cs](./CS/DiagramLinearDataSource/DepartmentTypedListDataProvider.cs) (VB: [DepartmentTypedListDataProvider.vb](./VB/DiagramLinearDataSource/DepartmentTypedListDataProvider.vb))
 * [DataTableDataBinding.aspx](./CS/DiagramLinearDataSource/DataTableDataBinding.aspx) (VB: [DataTableDataBinding.aspx](./VB/DiagramLinearDataSource/DataTableDataBinding.aspx))
 * [DepartmentDataTableDataProvider.cs](./CS/DiagramLinearDataSource/DepartmentDataTableDataProvider.cs) (VB: [DepartmentDataTableDataProvider.vb](./VB/DiagramLinearDataSource/DepartmentDataTableDataProvider.vb))
 <!-- default file list end -->
