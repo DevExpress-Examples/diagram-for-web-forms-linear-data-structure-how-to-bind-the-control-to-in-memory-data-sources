@@ -32,23 +32,23 @@ namespace DiagramLinearDataSource
                 {
                     data = new List<Department>
                     {
-                        new Department(1, 0, "Corporate\nHeadquarters"),
-                        new Department(2, 1, "Sales and \nMarketing"),
+                        new Department(1, 0, "Corporate Headquarters"),
+                        new Department(2, 1, "Sales and Marketing"),
                         new Department(3, 1, "Finance"),
                         new Department(4, 1, "Engineering"),
-                        new Department(5, 2, "Field Office: \nCanada"),
-                        new Department(6, 2, "Field Office:\nEast Coast"),
-                        new Department(7, 2, "Pacific Rim \nHeadquarters"),
+                        new Department(5, 2, "Field Office: Canada"),
+                        new Department(6, 2, "Field Office: East Coast"),
+                        new Department(7, 2, "Pacific Rim Headquarters"),
                         new Department(8, 2, "Marketing"),
-                        new Department(9, 4, "Consumer \nElectronics Div."),
-                        new Department(10, 4, "Software \nProducts Div."),
-                        new Department(11, 7, "Field Office: \nSingapore"),
-                        new Department(12, 7, "Field Office: \nJapan"),
-                        new Department(13, 9, "Software \nDevelopment"),
-                        new Department(14, 10, "Quality \nAssurance"),
-                        new Department(15, 10, "Customer \nSupport"),
-                        new Department(16, 10, "Research and \nDevelopment"),
-                        new Department(17, 10, "Customer \nServices")
+                        new Department(9, 4, "Consumer Electronics Div."),
+                        new Department(10, 4, "Software Products Div."),
+                        new Department(11, 7, "Field Office: Singapore"),
+                        new Department(12, 7, "Field Office: Japan"),
+                        new Department(13, 9, "Software Development"),
+                        new Department(14, 10, "Quality Assurance"),
+                        new Department(15, 10, "Customer Support"),
+                        new Department(16, 10, "Research and Development"),
+                        new Department(17, 10, "Customer Services")
                     };
                     HttpContext.Current.Session["DiagramTypeListNodes"] = data;
                 }
