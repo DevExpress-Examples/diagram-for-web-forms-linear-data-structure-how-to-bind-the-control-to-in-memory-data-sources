@@ -24,23 +24,23 @@ namespace DiagramLinearDataSource
 
                     dataTable.PrimaryKey = new DataColumn[] { dataTable.Columns["ID"] };
 
-                    dataTable.Rows.Add(1, 0, "Corporate\nHeadquarters");
-                    dataTable.Rows.Add(2, 1, "Sales and \nMarketing");
+                    dataTable.Rows.Add(1, 0, "Corporate Headquarters");
+                    dataTable.Rows.Add(2, 1, "Sales and Marketing");
                     dataTable.Rows.Add(3, 1, "Finance");
                     dataTable.Rows.Add(4, 1, "Engineering");
-                    dataTable.Rows.Add(5, 2, "Field Office: \nCanada");
-                    dataTable.Rows.Add(6, 2, "Field Office:\nEast Coast");
-                    dataTable.Rows.Add(7, 2, "Pacific Rim \nHeadquarters");
+                    dataTable.Rows.Add(5, 2, "Field Office: Canada");
+                    dataTable.Rows.Add(6, 2, "Field Office: East Coast");
+                    dataTable.Rows.Add(7, 2, "Pacific Rim Headquarters");
                     dataTable.Rows.Add(8, 2, "Marketing");
-                    dataTable.Rows.Add(9, 4, "Consumer \nElectronics Div.");
-                    dataTable.Rows.Add(10, 4, "Software \nProducts Div.");
-                    dataTable.Rows.Add(11, 7, "Field Office: \nSingapore");
-                    dataTable.Rows.Add(12, 7, "Field Office: \nJapan");
-                    dataTable.Rows.Add(13, 9, "Software \nDevelopment");
-                    dataTable.Rows.Add(14, 10, "Quality \nAssurance");
-                    dataTable.Rows.Add(15, 10, "Customer \nSupport");
-                    dataTable.Rows.Add(16, 10, "Research and \nDevelopment");
-                    dataTable.Rows.Add(17, 10, "Customer \nServices");
+                    dataTable.Rows.Add(9, 4, "Consumer Electronics Div.");
+                    dataTable.Rows.Add(10, 4, "Software Products Div.");
+                    dataTable.Rows.Add(11, 7, "Field Office: Singapore");
+                    dataTable.Rows.Add(12, 7, "Field Office: Japan");
+                    dataTable.Rows.Add(13, 9, "Software Development");
+                    dataTable.Rows.Add(14, 10, "Quality Assurance");
+                    dataTable.Rows.Add(15, 10, "Customer Support");
+                    dataTable.Rows.Add(16, 10, "Research and Development");
+                    dataTable.Rows.Add(17, 10, "Customer Services");
 
                     HttpContext.Current.Session["DiagramDataTableNodes"] = dataTable;
                 }
