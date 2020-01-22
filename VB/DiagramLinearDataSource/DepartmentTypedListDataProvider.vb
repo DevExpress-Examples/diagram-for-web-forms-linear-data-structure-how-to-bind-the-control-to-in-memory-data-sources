@@ -25,23 +25,23 @@ Namespace DiagramLinearDataSource
 				Dim data = TryCast(HttpContext.Current.Session("DiagramTypeListNodes"), List(Of Department))
 				If data Is Nothing Then
 					data = New List(Of Department) From {
-						New Department(1, 0, "Corporate" & vbLf & "Headquarters"),
-						New Department(2, 1, "Sales and " & vbLf & "Marketing"),
+						New Department(1, 0, "Corporate Headquarters"),
+						New Department(2, 1, "Sales and Marketing"),
 						New Department(3, 1, "Finance"),
 						New Department(4, 1, "Engineering"),
-						New Department(5, 2, "Field Office: " & vbLf & "Canada"),
-						New Department(6, 2, "Field Office:" & vbLf & "East Coast"),
-						New Department(7, 2, "Pacific Rim " & vbLf & "Headquarters"),
+						New Department(5, 2, "Field Office: Canada"),
+						New Department(6, 2, "Field Office: East Coast"),
+						New Department(7, 2, "Pacific Rim Headquarters"),
 						New Department(8, 2, "Marketing"),
-						New Department(9, 4, "Consumer " & vbLf & "Electronics Div."),
-						New Department(10, 4, "Software " & vbLf & "Products Div."),
-						New Department(11, 7, "Field Office: " & vbLf & "Singapore"),
-						New Department(12, 7, "Field Office: " & vbLf & "Japan"),
-						New Department(13, 9, "Software " & vbLf & "Development"),
-						New Department(14, 10, "Quality " & vbLf & "Assurance"),
-						New Department(15, 10, "Customer " & vbLf & "Support"),
-						New Department(16, 10, "Research and " & vbLf & "Development"),
-						New Department(17, 10, "Customer " & vbLf & "Services")
+						New Department(9, 4, "Consumer Electronics Div."),
+						New Department(10, 4, "Software Products Div."),
+						New Department(11, 7, "Field Office: Singapore"),
+						New Department(12, 7, "Field Office: Japan"),
+						New Department(13, 9, "Software Development"),
+						New Department(14, 10, "Quality Assurance"),
+						New Department(15, 10, "Customer Support"),
+						New Department(16, 10, "Research and Development"),
+						New Department(17, 10, "Customer Services")
 					}
 					HttpContext.Current.Session("DiagramTypeListNodes") = data
 				End If
