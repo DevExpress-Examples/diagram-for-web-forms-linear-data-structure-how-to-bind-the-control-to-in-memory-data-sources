@@ -23,4 +23,5 @@ In this example, the Diagram control transforms a linear data structure to a tre
 You can bind other node settings to the data source. Assign field values to the corresponding settings in the  [Mappings.Node](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxDiagram.DiagramNodeMappingInfo._properties)  property.
 
 ***See also:***  
-[Diagram for Web Forms - Node and Edge data sources - How to bind the control to in-memory data sources](https://github.com/DevExpress-Examples/diagram-for-web-forms-node-and-edge-data-sources-how-to-bind-the-control-to-in-memory-data-sources)
+[Diagram for Web Forms - Node and Edge data sources - How to bind the control to in-memory data sources](https://github.com/DevExpress-Examples/diagram-for-web-forms-node-and-edge-data-sources-how-to-bind-the-control-to-in-memory-data-sources)  
+[Diagram for Web Forms - How to bind containers to an in-memory data source](https://github.com/DevExpress-Examples/diagram-for-web-forms-how-to-bind-containers-to-an-in-memory-data-source)
