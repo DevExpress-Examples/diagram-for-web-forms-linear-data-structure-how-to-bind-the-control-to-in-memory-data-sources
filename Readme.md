@@ -7,9 +7,6 @@
 
 # Diagram for Web Forms - Tree from Linear Data Structure - How to bind the control to in-memory data sources
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/230118732/)**
-<!-- run online end -->
 
 Unlike declarative DataSource controls (such as AccessDataSource, SqlDataSource, LinqDataSource, EntityDataSource, and so on), custom in-memory data sources (such as List\<T>, DataTable and so on) do not allow you to automatically perform CRUD operations. These custom CRUD operations' logic can be implemented with the help of `ObjectDataSource`. This example demonstrates how to bind the [ASPxDiagram](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxDiagram.ASPxDiagram) control to `ObjectDataSource` and implement custom CRUD operations at the data source level. 
 
